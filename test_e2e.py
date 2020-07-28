@@ -37,6 +37,8 @@ class Testoperationone(BaseClass):
 
         assert "Success" in alertmessage
         self.driver.get_screenshot_as_file("screen.png")
+        
+        print("changed by gitusa")
     
 
 
