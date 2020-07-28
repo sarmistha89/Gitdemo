@@ -33,6 +33,10 @@ class Testlogin(BaseClass):
     @pytest.fixture(params=Homepagedata.testdata)
     def getdata(self, request):
         return request.param
+    def getdata(self, request):
+        return request.param
+    def getdata(self, request):
+        return request.param
             
 
         
